@@ -33,4 +33,19 @@ public class Max {
         System.out.println("The largest float value among " + e + ", " + i + " ," + o + " " + "is " + max);
     }
 
+    public static String StringM(String x, String y, String z) {
+        String max = x;
+        if (y.compareTo(max) > 0) {
+            max = y;
+        }
+        if (z.compareTo(max) >0) {
+            max = z;
+        }
+        printStr(x,y,z,max);
+        return max;
+    }
+
+    public static void printStr(String x, String y, String z, String max){
+        System.out.println("The largest String value among " +x+" ," +y+" ," +z+" " +"is " +max);
+    }
 }

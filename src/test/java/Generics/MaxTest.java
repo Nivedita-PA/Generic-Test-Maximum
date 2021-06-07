@@ -51,5 +51,27 @@ public class MaxTest {
         Assert.assertTrue(status);
     }
 
+    @Test
+    public void givenMaxString_Should_Return_FirstString(){
+        Max max3 = new Max();
+        String result = max3.StringM("orange","apple","banana");
+        boolean status = result.equals("orange");
+        Assert.assertTrue(status);
+    }
 
+    @Test
+    public void givenMaxString_Should_Return_SecondString(){
+        Max max3 = new Max();
+        String result = max3.StringM("apple","orange","banana");
+        boolean status = result.equals("orange");
+        Assert.assertTrue(status);
+    }
+
+    @Test
+    public void givenMaxString_Should_Return_ThirdString(){
+        Max max3 = new Max();
+        String result = max3.StringM("banana","apple","orange");
+        boolean status = result.equals("orange");
+        Assert.assertTrue(status);
+    }
 }
