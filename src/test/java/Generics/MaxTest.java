@@ -20,4 +20,12 @@ public class MaxTest {
         boolean status = result.equals(6);
         Assert.assertTrue(status);
     }
+
+    @Test
+    public void givenMaxNum_Should_Return_ThirdNum(){
+        Max max3 = new Max();
+        Integer result = max3.Intmax(5,6,7);
+        boolean status = result.equals(7);
+        Assert.assertTrue(status);
+    }
 }
