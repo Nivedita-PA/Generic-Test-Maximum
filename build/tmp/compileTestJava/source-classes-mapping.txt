@@ -1,0 +1,6 @@
+Generics/MaxTest1.java
+ Generics.MaxTest1
+Generics/MaxTest.java
+ Generics.MaxTest
+Generics/MaxTest2.java
+ Generics.MaxTest2

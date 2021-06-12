@@ -1,0 +1,6 @@
+Generics/Max.java
+ Generics.Max
+Generics/Max1.java
+ Generics.Max1
+Generics/Max2.java
+ Generics.Max2
